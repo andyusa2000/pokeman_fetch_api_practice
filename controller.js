@@ -52,11 +52,12 @@ function getPokemonSprite(pkmJson) {
 }
     
 function capitalize(string) {
-    let start = string.substring(0,1).toUpperCase();
     // substring(0,1); 1st character
     // toUpperCase(); capital letter
-    let body = string.substring(1).toLowerCase();
-    // From 2nd character until the end of character, lower case
+    let start = string.substring(0,1).toUpperCase();
 
+    // From 2nd character until the end of character, lower case
+    let body = string.substring(1).toLowerCase();
+    
     return start + body;
 }
