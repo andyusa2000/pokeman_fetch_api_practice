@@ -1,3 +1,38 @@
+:root {
+    --color-orange: #E27D60;
+    --color-lime: #85DCB0;
+    --color-light-orange: #E8A87C;
+    --color-purple: #C38D9E;
+    --color-green: #41B3A3;
+}
+
 html {
     text-align: center;
+    background-color: var(--color-lime);
+    font-family: 'Lavishly Yours', cursive;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+input[type="text"] {
+    border: 0;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 5px solid var(--color-orange);
+}
+
+button {
+    border: 3px solid var(--color-orange);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: .3rem .5rem;
+    background-color: var(--color-lime);
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: var(--color-green);
+    background-color: var(--color-orange);
 }
